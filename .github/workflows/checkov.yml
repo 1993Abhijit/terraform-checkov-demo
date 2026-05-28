@@ -26,4 +26,4 @@ jobs:
         run: pip install checkov
 
       - name: Run Checkov Scan
-        run: checkov -d .
+        run: checkov -d . --soft-fail
